@@ -1,6 +1,7 @@
 define(["dojo/fx",
 		"dojo/_base/fx",
-		'dojo/domReady!'],function(fx,baseFx){
+		"dojox/fx/scroll",
+		'dojo/domReady!'],function(fx,baseFx,fxScroll){
 	var animate = {
 		wipeOut : function(node,time) {
 			fx.wipeOut({
