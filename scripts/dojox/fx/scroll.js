@@ -1,5 +1,5 @@
 //>>built
-define("dojox/fx/scroll",["dojo/_base/kernel","dojo/_base/lang","dojo/_base/fx","dojox/fx/_base","dojox/fx/_core","dojo/dom-geometry","dojo/_base/sniff"],function(_1,_2,_3,_4,_5,_6,_7){
+define("dojox/fx/scroll",["dojo/_base/kernel","dojo/_base/lang","dojo/_base/fx","dojox/fx/base","dojox/fx/core","dojo/dom-geometry","dojo/_base/sniff"],function(_1,_2,_3,_4,_5,_6,_7){
 _1.experimental("dojox.fx.scroll");
 var fx=_2.getObject("dojox.fx",true);
 _4.smoothScroll=function(_8){

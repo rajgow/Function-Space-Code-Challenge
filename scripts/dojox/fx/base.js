@@ -1,5 +1,5 @@
 //>>built
-define("dojox/fx/_base",["dojo/_base/array","dojo/_base/lang","dojo/_base/fx","dojo/fx","dojo/dom","dojo/dom-style","dojo/dom-geometry","dojo/_base/connect","dojo/_base/html"],function(_1,_2,_3,_4,_5,_6,_7,_8,_9){
+define("dojox/fx/base",["dojo/_base/array","dojo/_base/lang","dojo/_base/fx","dojo/fx","dojo/dom","dojo/dom-style","dojo/dom-geometry","dojo/_base/connect","dojo/_base/html"],function(_1,_2,_3,_4,_5,_6,_7,_8,_9){
 var _a=_2.getObject("dojox.fx",true);
 _2.mixin(_a,{anim:_3.anim,animateProperty:_3.animateProperty,fadeTo:_3._fade,fadeIn:_3.fadeIn,fadeOut:_3.fadeOut,combine:_4.combine,chain:_4.chain,slideTo:_4.slideTo,wipeIn:_4.wipeIn,wipeOut:_4.wipeOut});
 _a.sizeTo=function(_b){

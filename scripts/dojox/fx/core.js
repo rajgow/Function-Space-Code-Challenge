@@ -1,5 +1,5 @@
 //>>built
-define("dojox/fx/_core",["dojo/_base/lang","dojo/_base/array","./_base"],function(_1,_2,_3){
+define("dojox/fx/core",["dojo/_base/lang","dojo/_base/array","./base"],function(_1,_2,_3){
 var _4=function(_5,_6){
 this.start=_5;
 this.end=_6;
